@@ -7,7 +7,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
   title: 'David García - Frontend Developer',
-  description: 'Portafolio profesional de David García, desarrollador frontend especializado en tecnologías modernas, ubicado en Colombia.',
+  description: 'David Garcia, Front End developer, based in Colombia',
   keywords: 'David García, Frontend Developer, Desarrollador Web, Portafolio, React, Next.js, Colombia',
   author: 'David García',
 }
