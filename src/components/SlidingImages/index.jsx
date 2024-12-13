@@ -17,7 +17,8 @@ const slider1 = [
         src: "funny.jpg"
     },
     {
-        color: "#21242b",
+        // color: "#21242b",
+        color: "#e3e3e3",
         src: "google.jpg"
     }
 ]
@@ -33,7 +34,7 @@ const slider2 = [
     },
     {
         color: "#d7d4cf",
-        src: "powell.jpg"
+        src: "simplePostRefact.png"
     },
     {
         color: "#e1dad6",
