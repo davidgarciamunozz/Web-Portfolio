@@ -6,6 +6,7 @@ import { motion } from 'framer-motion';
 import gsap from 'gsap';
 import Image from 'next/image';
 import Rounded from '../../common/RoundedButton';
+import './index.css'
 
 const projects = [
   {
@@ -86,7 +87,8 @@ export default function Home() {
   }
 
   return (
-  <main 
+  <main
+    id='work'
     onMouseMove={(e) => window.innerWidth > 768 ? moveItems(e.clientX, e.clientY) : null} 
     className={styles.projects}
   >
@@ -103,7 +105,9 @@ export default function Home() {
       }
     </div>
     <Rounded>
+      <a href="https://github.com/davidgarciamunozz" id='github'>
       <p>More work</p>
+      </a>
     </Rounded>
     <>
         <motion.div 
