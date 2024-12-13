@@ -4,6 +4,7 @@ import Rounded from '../../common/RoundedButton';
 import { useRef } from 'react';
 import { useScroll, motion, useTransform, useSpring } from 'framer-motion';
 import Magnetic from '../../common/Magnetic';
+import './index.css'
 
 export default function index() {
     const container = useRef(null);
@@ -18,20 +19,20 @@ export default function index() {
         <motion.div style={{y}} ref={container} className={styles.contact}>
             <div className={styles.body}>
                 <div className={styles.title}>
-                    <span>
+                    <span >
                         <div className={styles.imageContainer}>
                             <Image 
                             fill={true}
                             alt={"image"}
-                            src={`/images/background.jpg`}
+                            src={`/images/extendedPX-PT.jpg`}
                             />
                         </div>
                         <h2>Let's work</h2>
                     </span>
-                    <h2>together</h2>
+                    <h2 id='together'>together</h2>
                     <motion.div style={{x}} className={styles.buttonContainer}>
                         <Rounded  backgroundColor={"#334BD3"} className={styles.button}>
-                            <p>Get in touch</p>
+                            <p>LinkedIn</p>
                         </Rounded>
                     </motion.div>
                     <motion.svg style={{rotate, scale: 2}} width="9" height="9" viewBox="0 0 9 9" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -39,36 +40,32 @@ export default function index() {
                     </motion.svg>
                 </div>
                 <div className={styles.nav}>
-                        <Rounded>
-                            <p>info@dennissnellenberg.com</p>
+                        <Rounded >
+                            <p>garxia0710@gmail.com</p>
                         </Rounded>
-                        <Rounded>
-                            <p>+31 6 27 84 74 30</p>
+                        <Rounded >
+                            <p>GitHub</p>
                         </Rounded>
                 </div>
-                <div className={styles.info}>
+                <div id='contact'  className={styles.info}>
                     <div>
                         <span>
                             <h3>Version</h3>
-                            <p>2022 © Edition</p>
-                        </span>
-                        <span>
-                            <h3>Version</h3>
-                            <p>11:49 PM GMT+2</p>
+                            <p>2024 © Edition</p>
                         </span>
                     </div>
                     <div>
                         <span>
                             <h3>socials</h3>
                             <Magnetic>
-                                <p>Awwwards</p>
+                                <p>Behance</p>
                             </Magnetic>
                         </span>
                         <Magnetic>
                             <p>Instagram</p>
                         </Magnetic>
                         <Magnetic>
-                            <p>Dribbble</p>
+                            <p>GitHub</p>
                         </Magnetic>
                         <Magnetic>
                             <p>Linkedin</p>

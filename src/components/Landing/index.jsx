@@ -46,6 +46,7 @@ export default function Home() {
   return (
     <motion.main variants={slideUp} initial="initial" animate="enter" className={styles.landing}>
       <Image 
+        id='landing'
         src="/images/extendedPX-PT.jpg"
         fill={true}
         alt="background"
