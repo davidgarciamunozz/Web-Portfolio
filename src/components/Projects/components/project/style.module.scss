@@ -1,4 +1,4 @@
-.project{
+.project {
     display: flex;
     width: 100%;
     justify-content: space-between;
@@ -8,31 +8,40 @@
     cursor: pointer;
     transition: all 0.2s;
 
-    h2{
+    h2 {
         font-size: 60px;
         margin: 0px;
         font-weight: 400;
         transition: all 0.4s;
     }
 
-    p{
+    p {
         transition: all 0.4s;
         font-weight: 300;
     }
 
-    &:last-of-type{
-        border-bottom: 1px solid rgb(201, 201, 201);
-    }
-
-    &:hover{
+    &:hover {
         opacity: 0.5;
 
-        h2{
+        h2 {
             transform: translateX(-10px);
         }
 
-        p{
+        p {
             transform: translateX(10px);
         }
+    }
+}
+
+.projectContainer {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    text-decoration: none;
+    color: inherit;
+
+    &:last-child .project {
+        border-bottom: 1px solid rgb(201, 201, 201);
     }
 }
