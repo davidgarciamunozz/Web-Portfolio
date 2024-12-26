@@ -1,6 +1,6 @@
 .project {
     display: flex;
-    width: 100%;
+    width: 80%;
     justify-content: space-between;
     align-items: center;
     padding: 10px 10px;
@@ -31,12 +31,15 @@
             transform: translateX(10px);
         }
     }
+    @media (max-width: 768px) { // Ajuste para pantallas móviles
+        width: 100%;
+    }
 }
 
 .projectContainer {
     display: flex;
     width: 100%;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-decoration: none;
     color: inherit;

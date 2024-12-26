@@ -32,11 +32,11 @@ export default function index() {
           </span>
           <h2 id="together">together</h2>
           <motion.div style={{ x }} className={styles.buttonContainer}>
-            <Rounded backgroundColor={"#334BD3"} className={styles.button}>
             <Link href="https://www.linkedin.com/in/davidgarciamu%C3%B1oz/" className="links">
+            <Rounded backgroundColor={"#334BD3"} className={styles.button}>
               <p>Linkedin</p>
-            </Link>
             </Rounded>
+            </Link>
           </motion.div>
           <motion.svg
             style={{ rotate, scale: 2 }}
@@ -54,7 +54,9 @@ export default function index() {
         </div>
         <div className={styles.nav}>
           <Rounded>
+          <a href="mailto:garxia0710@gmail.com" className="links">
             <p>garxia0710@gmail.com</p>
+          </a>
           </Rounded>
           <Rounded>
             <Link href="https://github.com/davidgarciamunozz" className="links">
@@ -66,7 +68,7 @@ export default function index() {
           <div>
             <span>
               <h3>Version</h3>
-              <p>2024 © Made with Next.js</p>
+              <p>2024 © </p>
             </span>
           </div>
           <div>
