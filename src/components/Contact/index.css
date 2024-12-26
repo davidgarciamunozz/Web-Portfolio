@@ -7,3 +7,7 @@
         max-width: 200px;
     }
 }
+.links {
+    text-decoration: none;
+    color: white;
+}

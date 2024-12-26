@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "Simple Post",
-    src: "SimplePost.png",
+    src: "SimplePostRefact.png",
     color: "#706D63"
   },
   {
@@ -26,7 +26,7 @@ const projects = [
   },
   {
     title: "Fesamed Care",
-    src: "FesamedCare.png",
+    src: "FMed.png",
     color: "#706D63"
   }
 ]
@@ -106,7 +106,7 @@ export default function Home() {
     </div>
     <Rounded>
       <a href="https://github.com/davidgarciamunozz" id='github'>
-      <p>More work</p>
+      <p>GitHub</p>
       </a>
     </Rounded>
     <>
