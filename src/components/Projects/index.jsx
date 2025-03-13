@@ -10,6 +10,12 @@ import './index.css'
 
 const projects = [
   {
+    title: "Makata Studio",
+    src: "MakataStudio.png",
+    color: "#706D63",
+    link: "https://makata.tv/"
+  },
+  {
     title: "Ayrton Senna",
     src: "Senna.png",
     color: "#8C8C8C",

@@ -10,7 +10,7 @@ const slider1 = [
     },
     {
         color: "#d6d7dc",
-        src: "decimal.jpg"
+        src: "mktBrand.png"
     },
     {
         color: "#e3e3e3",
@@ -19,7 +19,7 @@ const slider1 = [
     {
         // color: "#21242b",
         color: "#e3e3e3",
-        src: "google.jpg"
+        src: "decimal.jpg"
     }
 ]
 
