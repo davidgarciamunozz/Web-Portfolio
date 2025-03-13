@@ -68,7 +68,7 @@ export default function index() {
           <div>
             <span>
               <h3>Version</h3>
-              <p>2024 © </p>
+              <p>2025 © </p>
             </span>
           </div>
           <div>
