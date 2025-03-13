@@ -21,7 +21,7 @@ export default function index() {
                 <motion.p variants={opacity} animate={isInView ? "open" : "closed"}>My love for design, coding, and interaction places me in an unrivaled spot in the digital creative space.</motion.p>
                 <div data-scroll data-scroll-speed={0.1}>
                     <Rounded className={styles.button}>
-                        <a href="/CV-art.pdf" target="_blank" className='link' download>
+                        <a href="/CV-up-to-date.pdf" target="_blank" className='link' download>
                             <p>View <br />Curriculum</p>
                         </a>
                     </Rounded>
