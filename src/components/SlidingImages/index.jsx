@@ -30,11 +30,11 @@ const slider2 = [
     },
     {
         color: "#e5e0e1",
-        src: "Blessd.png"
+        src: "HeyPeer.png"
     },
     {
         color: "#d7d4cf",
-        src: "simplePostRefact.png"
+        src: "Mimir.png"
     },
     {
         color: "#e1dad6",

@@ -22,16 +22,16 @@ const projects = [
     link: "https://ayrton-senna-three.vercel.app/"
   },
   {
-    title: "Simple Post",
-    src: "simplePostRefact.png",
+    title: "Mimir",
+    src: "Mimir.png",
     color: "#706D63",
-    link: "https://davidgarciamunozz.github.io/SimplePost-DCA-FP/public/"
+    link: "https://www.askmimir.ai/"
   },
   {
-    title: "Blessd Web",
-    src: "Blessd.png",
+    title: "Hey Peer",
+    src: "HeyPeer.png",
     color: "#8C8C8C",
-    link: "https://davidgarciamunozz.github.io/Blessd-Web/"
+    link: "https://heypeer.ai/"
   },
   {
     title: "Fesamed Care",

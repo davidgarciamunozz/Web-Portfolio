@@ -25,7 +25,7 @@ export default function index() {
               <Image
                 fill={true}
                 alt={"image"}
-                src={`/images/extendedPX-PT.jpg`}
+                src={`/images/extendedPX-PT.JPEG`}
               />
             </div>
             <h2>Let's work</h2>
@@ -68,7 +68,7 @@ export default function index() {
           <div>
             <span>
               <h3>Version</h3>
-              <p>2025 © </p>
+              <p>2026 © </p>
             </span>
           </div>
           <div>
