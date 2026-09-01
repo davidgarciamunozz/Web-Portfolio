@@ -54,8 +54,8 @@ export default function index() {
         </div>
         <div className={styles.nav}>
           <Rounded>
-          <a href="mailto:garxia0710@gmail.com" className="links">
-            <p>garxia0710@gmail.com</p>
+          <a href="mailto:hello@davidgarciam.com" className="links">
+            <p>hello@davidgarciam.com</p>
           </a>
           </Rounded>
           <Rounded>
