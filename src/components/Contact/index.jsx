@@ -81,11 +81,6 @@ export default function index() {
               </Magnetic>
             </span>
             <Magnetic>
-            <Link href="https://www.instagram.com/davidgarciamz/" className="links">
-              <p>Instagram</p>
-            </Link>
-            </Magnetic>
-            <Magnetic>
             <Link href="https://github.com/davidgarciamunozz" className="links">
               <p>GitHub</p>
             </Link>
